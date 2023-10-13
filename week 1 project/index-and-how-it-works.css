@@ -1,0 +1,61 @@
+
+/* GENERL CLASSES TO USE */
+
+/* Creates Blue button with white text */
+.blue-button{
+    background-color: blue;
+    border-radius: 10%;
+    color: white;
+}
+
+.white-button{
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    border-radius:10%;
+}
+
+.minimal-padding{
+    padding: 7%;
+}
+
+.medium-text{
+    font-size: 1.5em;
+}
+
+.large-text{
+    font-size: 2em;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.gray-text{
+    color:rgb(99, 87, 87);
+}
+
+.color-blue{
+    color: blue;
+}
+/* DO NOT TOUCH */
+
+.nav-bar>div>a{
+    color: black;
+    text-decoration: none;
+    font-size: .8em;
+}
+
+.sign-in-buttom{
+    margin-left: 2vw;
+    margin-right: 7vw;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 5pt;
+}
+
+/* PLEASE ADD STUFF HERE */
