@@ -145,3 +145,58 @@ footer>div{
     border-radius: 10%;
     color: white;
 }
+
+.blue-circle-button {
+    background-color: white;
+    background-image: url("connors-imgs/blue-circle.png");
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+}
+
+.flex-spread {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.center-row {
+    justify-content: center;
+}
+
+.credit-card {
+    margin-top: 40px;
+}
+
+.blue-background {
+    background-color: blue;
+}
+
+.flex-evenly {
+    display: flex;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.flex-center-column {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-self: center;
+}
+.padding-evenly {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.circle-button {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: none;
+    background-color: lightblue;
+}
+
+.space-bottom>div {
+    padding-bottom: 50px;
+}
