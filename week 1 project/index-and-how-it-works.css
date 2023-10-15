@@ -200,3 +200,95 @@ footer>div{
 .space-bottom>div {
     padding-bottom: 50px;
 }
+
+
+/* Connor Classes added 10/14*/
+
+
+#client-dashboard-button{
+    background-color: rgb(54, 54, 255);
+    color: white;
+    border-radius: 50% 0% ;
+    
+    box-shadow: 0 10px 10px 10px #cdcbcb;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.grid-button-div{
+  width: 20%;
+  height: 20%;
+}
+
+.grid-button>p{
+    padding-bottom: 10%;
+}
+
+.grid-button>img{
+    height: 50%;
+    width: 50%;
+    margin-top: 7%;
+}
+
+.grid-button>p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#employee-profile-button{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 0% 0% ;
+    box-shadow: 0 10px 10px 10px #cdcbcb;
+}
+
+
+.client-calendar-button{
+    background-color: rgb(54, 54, 255);
+    color: white;
+    border-radius: 50%;
+    
+    box-shadow: 0 10px 10px 10px #cdcbcb;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.project-folders-button{
+    background-color: rgb(54, 54, 255);
+    color: white;
+    border-radius: 0% 0% 50% 0%;
+    
+    box-shadow: 0 10px 10px 10px #cdcbcb;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+.time-tracing-button{
+    background-color: rgb(54, 54, 255);
+    color: white;
+    border-radius: 0% 0% 0% 50%;
+    
+    box-shadow: 0 10px 10px 10px #cdcbcb;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#email-button{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px 10px #cdcbcb;
+    padding: 25%;
+}
+
+#project-comments-button{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 0% 50% 0% 0% ;
+    box-shadow: 0 10px 10px 10px #cdcbcb;
+}
+
+.analytics-button{
+    padding: 25%;
+}
