@@ -167,7 +167,7 @@ footer>div{
 }
 
 .blue-background {
-    background-color: blue;
+    background-color: #0750f8;
 }
 
 .flex-evenly {
@@ -190,17 +190,93 @@ footer>div{
 }
 
 .circle-button {
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     border: none;
-    background-color: lightblue;
+    background-color: #e5effe;
 }
 
 .space-bottom>div {
     padding-bottom: 50px;
 }
 
+.white-button-article{
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-radius:10%;
+}
+
+.square-button {
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    border: 1px solid #cecbcbee;
+    background-color: #fafbfc;
+}
+
+.blue-square-button {
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    border: 1px solid #cecbcbee;
+    background-color:#0750f8;
+}
+
+.icon-sizing {
+    height: 50px;
+    width: 50px;
+    color: #0750f8;
+}
+
+.icon-sizing-2 {
+    height: 80px;
+    width: 80px;
+    color: #0750f8;
+}
+
+.article-image-sizing {
+    height: 80%;
+    width: 80%;
+    margin: 50px;
+}
+
+.article-image-sizing-2 {
+    height: 70%;
+    width: 70%;
+    margin: 50px;
+}
+
+.hr-line {
+    border-top: 1px solid #cecbcbee;
+}
+
+.article-border {
+    /* height: 350px;
+    width: 350px; */
+    border-top: 1px solid #cecbcbee;
+    border-left: 1px solid #cecbcbee;
+    border-bottom: 1px solid #cecbcbee;
+    /* border-radius: 10%; */
+}
+
+.article-center-text {
+    margin: auto;
+    padding: 20px;
+}
+
+.article-center-items {
+    display: flex;
+    align-content: center;
+}
+   /* .white-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+   } */
 
 /* Connor Classes added 10/14*/
 
