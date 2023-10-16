@@ -4,15 +4,16 @@
 
 /* Creates Blue button with white text */
 .blue-button{
-    background-color: #0750f8;
+
+    background-color:#0750F8;
     border-radius: 10%;
     color: white;
 }
 
 .white-button{
     background-color: white;
-    color: blue;
-    border-color: blue;
+    color: #0750F8;
+    border-color: #0750F8;
     border-radius:10%;
 }
 
@@ -57,7 +58,7 @@
 }
 
 .color-blue{
-    color: blue;
+    color:#0750F8;
 }
 
 .super-bold-text{
@@ -90,30 +91,27 @@
     flex-wrap: wrap;
     padding-top: 5pt;
 }
-
+/* 
 .button-grid-rows{
-    justify-content: center;
+    display: flex;
+
+    justify-content: space-evenly;
     margin-top: 5vh;
-}
+} */
 
 .header-logo{
     height: 2em;
 }
 
 .button-grid-rows{
+    display: flex;
     justify-content: space-around;
     margin-top: 0;
     gap: 0px 0px;
 }
 
-.button-grid-rows>div>button>img{
-    height: 100%;
-}
-.button-grid-rows>div>button{
-    border: none;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-top: 5vh;
+.grid-button-div{
+    margin: 2vw;
 }
 .button-grid-rows>div{
     border: none;
@@ -130,7 +128,7 @@
 
 footer{
     padding-top: 10pt;
-    background-color: blue;
+    background-color:#0750F8;
 }
 
 footer>div{
@@ -338,7 +336,7 @@ footer>div{
 
 
 #client-dashboard-button{
-    background-color: rgb(54, 54, 255);
+    background-color:#0750F8;
     color: white;
     border-radius: 50% 0% ;
     
@@ -347,24 +345,33 @@ footer>div{
     margin-left: 10%;
 }
 
-.grid-button-div{
-  width: 20%;
-  height: 20%;
-}
 
 .grid-button>p{
     padding-bottom: 10%;
+    font-size: .8em;
+}
+
+
+.grid-button{
+    height: 11vw;
+    width: 10vw;
+    margin: 10%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    border: none;
+    max-width: 280px;
+    max-height: 2800px;
+
 }
 
 .grid-button>img{
-    height: 50%;
-    width: 50%;
-    margin-top: 7%;
+    size: 40%;
+    border-radius: 50%;
 }
 
 .grid-button>p{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #employee-profile-button{
@@ -376,17 +383,18 @@ footer>div{
 
 
 .client-calendar-button{
-    background-color: rgb(54, 54, 255);
+    background-color:#0750F8;
     color: white;
     border-radius: 50%;
-    
+
     box-shadow: 0 10px 10px 10px #cdcbcb;
+    padding-top: 5px;
     margin-right: 10%;
     margin-left: 10%;
 }
 
 .project-folders-button{
-    background-color: rgb(54, 54, 255);
+    background-color: #0750F8;
     color: white;
     border-radius: 0% 0% 50% 0%;
     
@@ -397,7 +405,7 @@ footer>div{
 
 
 .time-tracing-button{
-    background-color: rgb(54, 54, 255);
+    background-color: #0750F8;
     color: white;
     border-radius: 0% 0% 0% 50%;
     
@@ -406,21 +414,61 @@ footer>div{
     margin-left: 10%;
 }
 
+
 #email-button{
     background-color: rgb(255, 255, 255);
     color: black;
     border-radius: 50%;
     box-shadow: 0 10px 10px 10px #cdcbcb;
-    padding: 25%;
+
 }
 
-#project-comments-button{
+#project-components{
     background-color: rgb(255, 255, 255);
     color: black;
-    border-radius: 0% 50% 0% 0% ;
+    border-radius: 50% 0% 0% 0% ;
     box-shadow: 0 10px 10px 10px #cdcbcb;
 }
 
-.analytics-button{
-    padding: 25%;
+.button-col{
+    margin-top: 10vh;
+}
+
+/* Button size by screen */
+
+@media only screen and (min-width: 750px) {
+    .grid-button{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .grid-button>p{
+        font-size: .4em;
+    }
+
+    .grid-button{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .grid-button{
+        margin: 5px;
+        width: 60px;
+        height: 70px;
+    }
+}
+
+/* End of button by grid size code*/
+
+.white-link{
+    color: white;
+}
+
+.white-link:hover{
+    color: white;
 }
