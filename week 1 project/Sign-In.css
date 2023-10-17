@@ -1,5 +1,51 @@
-body{
+.sign-In-body{
     background-image: url("images/CRM\ Sign\ in\ \ Background.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.white-text{
+    color:white;
+font-size: 2.5em;
+
+}
+.flex-space{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+.center-text{
+    text-align:center;
+
+
+}
+.flex-space> div{
+    width: 50vw;
+    
+    padding-top: 15vh;
+}
+.big-text{
+    font-size: 4em;
+    margin-top: 15vh;
+}
+.Sign-Up-button{
+    border: 5px solid white;
+    background-color: blue;
+    border-radius: 20%;
+    margin-left:15vw;
+    width: 20vw;
+    margin-top: 20px;
+}
+.text-input{
+    margin-left:10vw;
+    width:30vw;
+    border: 3px solid black;
+    border-radius: 25%;
+    margin-bottom: 30px;
+    height: 5vh;
+}
+.sign-up-body{
+    background-image: url("connors-imgs/Sign\ Up\ -\ CRM\ SIgnup-background.png");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
